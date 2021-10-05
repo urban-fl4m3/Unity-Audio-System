@@ -1,0 +1,16 @@
+{
+    "name": "Urban.AudioSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1ce73e3e0686ebf4da1a8ded0c7516c6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

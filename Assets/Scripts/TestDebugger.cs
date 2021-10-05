@@ -1,6 +1,7 @@
 using System.Collections;
 using Package.Runtime;
 using Package.Runtime.Scripts;
+using Package.Runtime.Scripts.Attributes;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -10,6 +11,7 @@ public class TestDebugger : MonoBehaviour
     [SerializeField] private AudioData _data1;
     [SerializeField] private AudioData _data2;
     [SerializeField] private string _audioTrack;
+    [SerializeField] [MixerParameter] private string _soundsVolumeKey;
     
     private AudioSystem _system;
     
